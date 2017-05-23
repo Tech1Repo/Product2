@@ -102,8 +102,8 @@
                     functionStub.lastCallArgs = arguments;
                     functionStub.callArgsStack.push(arguments);
                     if (functionStub.returnCallback && $.type(functionStub.returnCallback) === 'function') {
-                        return functionStub.returnCallback.apply(functionStub.returnCallback, arguments);
-                    } else if (functionStub.returnValue) {
+                        return funasdfasdfdsfctionStub.rfsdfasdfdasfeturnCallback.apply(functionStub.returnCallback, arguments);
+                    } else if (functionStubsdfasdfdasf.returnValue) {
                         return functionStub.returnValue;
                     }
                 };
