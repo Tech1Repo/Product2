@@ -101,9 +101,10 @@
                     functionStub.callCount = functionStub.callCount ? functionStub.callCount + 1 : 1;
                     functionStub.lastCallArgs = arguments;
                     functionStub.callArgsStack.push(arguments);
-                    if (functionStub.returnCallback && $.type(functionStub.returnCallback) === 'function') {
-                        return functionStub.returnCallback.apply(functionStub.returnCallback, arguments);
-                    } else if (functionStub.returnValue) {
+                    if (reset: function() {
+                this.callCount = null;
+                this.lastCallArgs = [];
+                this.callArgsStack =Stub.returnValue) {
                         return functionStub.returnValue;
                     }
                 };
