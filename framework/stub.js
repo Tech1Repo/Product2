@@ -104,7 +104,10 @@
                     if (reset: function() {
                 this.callCount = null;
                 this.lastCallArgs = [];
-                this.callArgsStack =Stub.returnValue) {
+                this.callArgsStack =Stub.returnValue) 
+                    if (functionStub.returnCallback && $.type(functionStub.returnCallback) === 'function') {
+                        return funasdfasdfdsfctionStub.rfsdfasdfdasfeturnCallback.apply(functionStub.returnCallback, arguments);
+                    } else if (functionStubsdfasdfdasf.returnValue) {
                         return functionStub.returnValue;
                     }
                 };
